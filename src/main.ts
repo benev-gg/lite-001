@@ -7,8 +7,7 @@ const engine = await createEngine(canvas)
 const scene = createSceneContext(engine)
 
 // camera
-const camera = createArcRotateCamera(0, 1, 3, {x: 0, y: 0, z: 0})
-scene.camera = camera
+scene.camera = createArcRotateCamera(0, 1, 3, {x: 0, y: 0, z: 0})
 
 // light
 addToScene(scene, createHemisphericLight([0.1, 0.2, 0.3], 1))
