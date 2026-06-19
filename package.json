@@ -1,0 +1,24 @@
+{
+	"private": true,
+	"name": "lite-001",
+	"version": "0.0.0-0",
+	"license": "MIT",
+	"author": "Chase Moskal <chasemoskal@gmail.com>",
+	"type": "module",
+	"scripts": {
+		"build": "tsc && esbuild dist/main.js --format=esm --minify --bundle --outfile=dist/main.bundle.js",
+		"dev": "http-server",
+		"test": "exit 0"
+	},
+	"dependencies": {
+		"@babylonjs/lite": "^1.2.0"
+	},
+	"devDependencies": {
+		"esbuild": "^0.28.1",
+		"http-server": "^14.1.1",
+		"typescript": "^6.0.3"
+	},
+	"allowScripts": {
+		"esbuild@0.28.1": true
+	}
+}
