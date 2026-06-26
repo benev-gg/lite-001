@@ -11,7 +11,7 @@
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"@babylonjs/lite": "^1.2.0"
+		"@babylonjs/lite": "^1.6.0"
 	},
 	"devDependencies": {
 		"esbuild": "^0.28.1",
